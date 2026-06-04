@@ -1,0 +1,25 @@
+{
+  "name": "token-optimization-demos",
+  "version": "1.0.0",
+  "description": "Companion repo for Token Optimization YouTube video by Mickey Gousset",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": ["github-copilot", "token-optimization", "ai-development"],
+  "author": "Mickey Gousset",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.4.0",
+    "eslint": "^8.57.0",
+    "tsx": "^4.7.0"
+  }
+}
